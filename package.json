@@ -1,14 +1,14 @@
 {
-  "name": "addo.reservation.models",
+  "name": "addo.models",
   "version": "1.0.0",
-  "description": "modello dati reservation",
+  "description": "modello dati",
   "main": "model.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/addoeventi/addo.reservations.models.git"
+    "url": "git+https://github.com/addoeventi/addo.models.git"
   },
   "dependencies": {
     "ts-guid": "^1.0.11"
