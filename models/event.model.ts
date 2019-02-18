@@ -1,4 +1,5 @@
 import { newGuid } from "ts-guid";
+import { Booking } from "./booking.model";
 
 export class Event {
     public guid: string = newGuid();
@@ -13,7 +14,7 @@ export class Event {
     public link: string;
     public user: string;
     public hidden: boolean;
-    public booking: any;
+    public booking: Booking;
     public address: { fullAddress: string, lat: number, lng: number };
     public promo: { radius: number, from: Date, to: Date, importance: number };
     public tags: string[] = [];
