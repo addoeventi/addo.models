@@ -1,0 +1,16 @@
+{
+  "name": "addo.models",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "git-push": "tsc && git push origin master"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-guid": "^1.0.11"
+  }
+}
