@@ -5,4 +5,8 @@ export declare class Subscription {
     days: number;
     avaiable: boolean;
     features: Feature[];
+    transaction: {
+        price: number;
+        percentage: number;
+    };
 }
