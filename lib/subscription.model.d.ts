@@ -1,6 +1,7 @@
 import { Feature } from "./feature.model";
 export declare class Subscription {
     title: string;
+    /**price of */
     price?: number;
     days?: number;
     avaiable?: boolean;
