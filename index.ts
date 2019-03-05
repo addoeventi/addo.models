@@ -1,13 +1,17 @@
-export * from './lib/booking.model';
-export * from './lib/discharge.model';
-export * from './lib/event-group.model';
-export * from './lib/event.model';
-export * from './lib/feature.model';
-export * from './lib/group.model';
-export * from './lib/product.model';
-export * from './lib/reservation-type.enum';
-export * from './lib/reservation.model';
-export * from './lib/shopping-list.model';
-export * from './lib/subscription.model';
-export * from './lib/user.model';
-export * from './lib/warehouse.model';
+// COMMON
+export * from "./models/user.model";
+export * from "./models/event.model";
+
+// RESERVATIONS
+export * from "./models/booking.model";
+export * from "./models/group.model";
+export * from "./models/event-group.model";
+export * from "./models/reservation-type.enum";
+export * from "./models/reservation.model";
+export * from "./models/subscription.model";
+
+// WAREHOUSE
+export * from "./models/discharge.model";
+export * from "./models/shopping-list.model";
+export * from "./models/warehouse.model";
+export * from "./models/product.model";
