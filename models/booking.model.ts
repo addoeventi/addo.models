@@ -10,14 +10,16 @@ export class Booking {
   public services: { [name: string]: Service };
 }
 
-declare type Service = {
+export type Service = {
   total: number;
-  packages: Array<{
-    name: string;
-    price: number;
-    description: string;
-    info: any;
-    avaiability: number;
-  }>;
+  commons: Package;
+  packages: Array<Package>;
 };
 
+export type Package = {
+  name: string;
+  price: number;
+  description: string;
+  info: any;
+  avaiability: number;
+};
