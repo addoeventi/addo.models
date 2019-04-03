@@ -24,4 +24,5 @@ export class Subscription {
     percentageFee: number;
     fixedFee: number;
   }>;
+  info: any;
 }
